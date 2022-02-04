@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>welcom to task 07 </title>
-
-
-  <style>
-
-  main{height: 400px;}
-
-    footer{background-color: rgb(212, 240, 113); }
-
-    header{background-color: rgb(135, 196, 86)}
-
-    .centerele{ text-align:end;}
-  </style>
-
+  <link rel="stylesheet" href="./style/hr_style.css">
 
 </head>
 
 
 <body>
-  
+
   <header>
-    <a href="accounting.html" target="_blank"><h2>accounting page </h2></a>
+    <a href="accounting.html" target="_blank">
+      <h2>Accounting page </h2>
+    </a>
 
-      </header>
-      <main>
+  </header>
+  <main>
+    <form action="" id="firstAamerForm">
+      <label for="user_name">Username:</label>
+      <input type="text" name="user_name" id="user_name" placeholder="Enter your username">
+      <label for="select_dep">Select department:</label>
+      <select name="" id="select_dep">
+        <option value="">Administration</option>
+        <option value="">Marketing</option>
+        <option value="">Development</option>
+        <option value="">Finance</option>
+      </select>
+      <label for="select_opt">Select option:</label>
+      <select name="" id="select_opt">
+        <option value="">Junior</option>
+        <option value="">Mid-Senior</option>
+        <option value="">Senior</option>
+      </select>
 
-<script src="app.js"></script>
+      <label for="img_url">Image url:</label>
+      <input type="text" id="img_url" placeholder="Add your image">
+      <input type="submit">
+    </form>
 
-      </main>
-      <footer>
-        <h2 >Aamer &copy2023 </h2>
-      </footer>
+    <div id="card_container">
+      <div id="card" class="card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Crystal_personal.svg/1024px-Crystal_personal.svg.png"
+          width="80" alt="">
+        <p>Usermame: Aamer</p>
+        <p>Id number: 1234</p>
+        <p>Department: Finance </p>
+        <P>Rank: Senior</P>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <h2>Aamer &copy2023 </h2>
+  </footer>
+  <script src="app.js"></script>
 </body>
+
 </html>
