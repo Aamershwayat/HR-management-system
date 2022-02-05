@@ -59,3 +59,14 @@ img{
     object-fit: cover;
     text-align: center;
 }
+table{
+    background-color: tomato;
+    border: 1px solid black;
+    width: 1000px;
+    height: 500px;
+}
+td{
+    border: 1px dashed black;
+    text-align: center;
+
+}
